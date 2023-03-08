@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{6473d160-22a7-4232-8cd3-67f4073234da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUT\Core">
+      <UniqueIdentifier>{06fcb89c-e069-454e-95c4-6238fb565f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUT\Optional">
+      <UniqueIdentifier>{8243d4f9-a360-4a5e-8069-b9fc3465c96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{88dc81bc-9491-40d0-9012-5a3cb63dac7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Header">
+      <UniqueIdentifier>{13ab9fe2-bece-4cf1-b763-b3d0baec0fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Source">
+      <UniqueIdentifier>{803ef4a7-09c8-477b-88e0-07a3c8559da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code Validation">
+      <UniqueIdentifier>{d6fc20de-03aa-48ca-bf2c-49c1441afc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code Validation\Assertion">
+      <UniqueIdentifier>{0e68c661-dd0b-4d51-9b2d-942507daee99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code Validation\Exception">
+      <UniqueIdentifier>{eff2cb63-f255-4d28-95f2-3eac30ca2cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code Validation\Safe">
+      <UniqueIdentifier>{a7734f85-6eec-40fa-a147-22b5ef468b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct3D">
+      <UniqueIdentifier>{1f3b2024-a065-409f-b14f-919cf8368438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct3D\Camera">
+      <UniqueIdentifier>{1a6130c7-93dd-4b0c-9977-9b7293f615fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct3D\Light">
+      <UniqueIdentifier>{923b82fb-02e8-4112-940e-c975f8826b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct3D\Mesh">
+      <UniqueIdentifier>{ffca8cfd-a505-4330-a27f-62e43dfcbb63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct3D\Widget">
+      <UniqueIdentifier>{5a9a6a61-6c3e-461f-9f12-65aadf448e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct3D\Common">
+      <UniqueIdentifier>{3d038ec5-9da7-4e6c-accd-8c7c93edfa53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArrowMaze">
+      <UniqueIdentifier>{29e78251-9c5b-41c1-9756-e41192df42d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArrowMaze\Cell">
+      <UniqueIdentifier>{f0371782-b2a6-47b1-a1ae-d51e2dc1aeae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArrowMaze\Route">
+      <UniqueIdentifier>{b03ff579-6484-4e9d-ab9b-b03dc016ab1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArrowMaze\Grid">
+      <UniqueIdentifier>{ae092e38-c051-4bd7-b818-be904485494d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArrowMaze\Maze Generator">
+      <UniqueIdentifier>{74658517-c76f-41e3-9a59-790bfe8ed462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArrowMaze\Cell Directions">
+      <UniqueIdentifier>{d4e05986-f9c2-4822-840e-cbbbb21ddf8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct3D\D3DDeviceAccessor">
+      <UniqueIdentifier>{4c3aab2e-fe6d-4c3b-bf31-5875cbe02451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArrowMaze\Cell%27s Shapes">
+      <UniqueIdentifier>{bdd4cee3-49fd-4ba7-aa80-1d49d6f95f59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArrowMaze\Cell%27s Shapes\Square Shape">
+      <UniqueIdentifier>{a90b0e29-063c-4ef0-ba3d-4634e185d05c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArrowMaze\Cell%27s Shapes\Arrow Shape">
+      <UniqueIdentifier>{34d962dc-a3c3-4fd9-846e-ce873f77258b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArrowMaze\Cell%27s Shapes\Outter Glow">
+      <UniqueIdentifier>{bac4b21e-2361-4bcc-97a8-89ab820d7fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArrowMaze\Cell%27s Shapes\Cell%27s Mesh">
+      <UniqueIdentifier>{0f331f64-0a86-41aa-87ca-37c52f726684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct3D\Mesh\BoundingSphere">
+      <UniqueIdentifier>{3327d385-3b9e-41a3-b904-1d90a6f81a8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Application\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>Application\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Assertion.cpp">
+      <Filter>Code Validation\Assertion</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCamera.cpp">
+      <Filter>Direct3D\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights.cpp">
+      <Filter>Direct3D\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshWidget.cpp">
+      <Filter>Direct3D\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantValues.cpp">
+      <Filter>Direct3D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStateManagement.cpp">
+      <Filter>Direct3D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>Direct3D\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C_D3DSpacialEntity.cpp">
+      <Filter>Direct3D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Route.cpp">
+      <Filter>ArrowMaze\Route</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>ArrowMaze\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="CreationParameters.cpp">
+      <Filter>ArrowMaze\Maze Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="CellBase.cpp">
+      <Filter>ArrowMaze\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="CellDirection.cpp">
+      <Filter>ArrowMaze\Cell Directions</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeGenerator.cpp">
+      <Filter>ArrowMaze\Maze Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="RoutesList.cpp">
+      <Filter>ArrowMaze\Route</Filter>
+    </ClCompile>
+    <ClCompile Include="hr_Exception.cpp">
+      <Filter>Code Validation\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>Application\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceAccessor.cpp">
+      <Filter>Direct3D\D3DDeviceAccessor</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareShape.cpp">
+      <Filter>ArrowMaze\Cell%27s Shapes\Square Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowShape.cpp">
+      <Filter>ArrowMaze\Cell%27s Shapes\Arrow Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowsShapes.cpp">
+      <Filter>ArrowMaze\Cell%27s Shapes\Arrow Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="CellOutterGlow.cpp">
+      <Filter>ArrowMaze\Cell%27s Shapes\Outter Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="CellMesh.cpp">
+      <Filter>ArrowMaze\Cell%27s Shapes\Cell%27s Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CellBaseEx.cpp">
+      <Filter>ArrowMaze\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>ArrowMaze\Cell%27s Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFile.cpp">
+      <Filter>Direct3D\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>Direct3D\Mesh\BoundingSphere</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Application\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>Application\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Assertion.h">
+      <Filter>Code Validation\Assertion</Filter>
+    </ClInclude>
+    <ClInclude Include="hr_Exception.h">
+      <Filter>Code Validation\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="safe.h">
+      <Filter>Code Validation\Safe</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCamera.h">
+      <Filter>Direct3D\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>Direct3D\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshWidget.h">
+      <Filter>Direct3D\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantValues.h">
+      <Filter>Direct3D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStateManagement.h">
+      <Filter>Direct3D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>Direct3D\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C_D3DSpacialEntity.h">
+      <Filter>Direct3D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Route.h">
+      <Filter>ArrowMaze\Route</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>ArrowMaze\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationParameters.h">
+      <Filter>ArrowMaze\Maze Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="CellBase.h">
+      <Filter>ArrowMaze\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="CellDirection.h">
+      <Filter>ArrowMaze\Cell Directions</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeGenerator.h">
+      <Filter>ArrowMaze\Maze Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="RoutesList.h">
+      <Filter>ArrowMaze\Route</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D.h">
+      <Filter>Application\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceAccessor.h">
+      <Filter>Direct3D\D3DDeviceAccessor</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareShape.h">
+      <Filter>ArrowMaze\Cell%27s Shapes\Square Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowShape.h">
+      <Filter>ArrowMaze\Cell%27s Shapes\Arrow Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowsShapes.h">
+      <Filter>ArrowMaze\Cell%27s Shapes\Arrow Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CellOutterGlow.h">
+      <Filter>ArrowMaze\Cell%27s Shapes\Outter Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="CellMesh.h">
+      <Filter>ArrowMaze\Cell%27s Shapes\Cell%27s Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CellBaseEx.h">
+      <Filter>ArrowMaze\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>ArrowMaze\Cell%27s Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshFile.h">
+      <Filter>Direct3D\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>Direct3D\Mesh\BoundingSphere</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

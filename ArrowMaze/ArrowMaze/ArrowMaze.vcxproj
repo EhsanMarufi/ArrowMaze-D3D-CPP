@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="ArrowShape.cpp" />
+    <ClCompile Include="ArrowsShapes.cpp" />
+    <ClCompile Include="Assertion.cpp" />
+    <ClCompile Include="BaseCamera.cpp" />
+    <ClCompile Include="BoundingSphere.cpp" />
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="CellBaseEx.cpp" />
+    <ClCompile Include="CellBase.cpp" />
+    <ClCompile Include="CellDirection.cpp" />
+    <ClCompile Include="CellMesh.cpp" />
+    <ClCompile Include="CellOutterGlow.cpp" />
+    <ClCompile Include="ConstantValues.cpp" />
+    <ClCompile Include="CreationParameters.cpp" />
+    <ClCompile Include="C_D3DSpacialEntity.cpp" />
+    <ClCompile Include="DeviceAccessor.cpp" />
+    <ClCompile Include="Direct3D.cpp">
+      <PreprocessToFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</PreprocessToFile>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUT.cpp" />
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp" />
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp" />
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp" />
+    <ClCompile Include="GameLogic.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="hr_Exception.cpp" />
+    <ClCompile Include="Lights.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MazeGenerator.cpp" />
+    <ClCompile Include="MeshFile.cpp" />
+    <ClCompile Include="MeshWidget.cpp" />
+    <ClCompile Include="RenderStateManagement.cpp" />
+    <ClCompile Include="Route.cpp" />
+    <ClCompile Include="RoutesList.cpp" />
+    <ClCompile Include="SquareShape.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="ArrowShape.h" />
+    <ClInclude Include="ArrowsShapes.h" />
+    <ClInclude Include="Assertion.h" />
+    <ClInclude Include="BaseCamera.h" />
+    <ClInclude Include="BoundingSphere.h" />
+    <ClInclude Include="Cell.h" />
+    <ClInclude Include="CellBaseEx.h" />
+    <ClInclude Include="CellBase.h" />
+    <ClInclude Include="CellDirection.h" />
+    <ClInclude Include="CellMesh.h" />
+    <ClInclude Include="CellOutterGlow.h" />
+    <ClInclude Include="ConstantValues.h" />
+    <ClInclude Include="CreationParameters.h" />
+    <ClInclude Include="C_D3DSpacialEntity.h" />
+    <ClInclude Include="DeviceAccessor.h" />
+    <ClInclude Include="Direct3D.h" />
+    <ClInclude Include="DXUT\Core\DXUT.h" />
+    <ClInclude Include="DXUT\Core\DXUTenum.h" />
+    <ClInclude Include="DXUT\Core\DXUTmisc.h" />
+    <ClInclude Include="DXUT\Optional\SDKmisc.h" />
+    <ClInclude Include="GameLogic.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="hr_Exception.h" />
+    <ClInclude Include="Lights.h" />
+    <ClInclude Include="MazeGenerator.h" />
+    <ClInclude Include="MeshFile.h" />
+    <ClInclude Include="MeshWidget.h" />
+    <ClInclude Include="RenderStateManagement.h" />
+    <ClInclude Include="Route.h" />
+    <ClInclude Include="RoutesList.h" />
+    <ClInclude Include="safe.h" />
+    <ClInclude Include="SquareShape.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Widget.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5978E392-A92B-4D2D-AC66-3C499ED0F0D2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ArrowMaze</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)\Include;$(ProjectDir)\DXUT\Core;$(ProjectDir)\DXUT\Optional;$(IncludePath)</IncludePath>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;ASSERTION_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dxerr.lib;dxguid.lib;d3dx9d.lib;d3dx10d.lib;d3d9.lib;winmm.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkStatus>false</LinkStatus>
+      <ShowProgress>LinkVerbose</ShowProgress>
+    </Link>
+    <Manifest>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
